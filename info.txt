@@ -1,0 +1,5 @@
+ssh -i "C:\Users\pinga\Downloads\lightsail-mvsd-dev.pem" bitnami@35.182.73.46
+bitnami_app_password = t2n0oAABlFhG
+mysql -h localhost -u root -p
+root_ims -> ims@123!@#
+

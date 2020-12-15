@@ -1,0 +1,11 @@
+id,category_id,category_name,vendor_id,vendor_name,menuf_id,manufacturer_name,store_id,store_name,product_name,pd_name2,image,cost,box_cost,item_cnt_per_box,sell_price,retail_price,deposit_amount,quantity,minimum_stock,size,pd_code,barcode,box_barcode,food_stamp,age_check,scale_product,description,liquore_price
+1,4,zohab,3,zohab,4,zohab,5,zhoab,Joshua Satterfield,Dr. Guido Buckridge,https://via.placeholder.com/30x30,300,313,3,30.3,30.9,100.3,10,23,32.3,Chris Farrell III,2.75348E+12,6.29554E+12,0,0,0,Praesentium est temporibus eligendi laboriosam cumque ad. Suscipit unde enim necessitatibus cumque soluta est. Eaque voluptatem praesentium ea harum aut.,3.23
+2,4,hassan,2,hassan,8,Hassan,4,hassan,Dr. Heber Dach,Camren Purdy,https://via.placeholder.com/30x30,300,313,3,30.3,30.9,100.3,10,23,32.3,Dr. Shad Casper,6.8976E+12,8.25301E+12,0,0,0,Adipisci asperiores repellat deserunt et. Assumenda quidem dolorem accusantium et. Asperiores quae vitae non.,3.23
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

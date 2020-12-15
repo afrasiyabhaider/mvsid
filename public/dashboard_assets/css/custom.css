@@ -1,0 +1,213 @@
+/* h4 {
+    color: #fff;
+} */
+
+.feather-icon .icon-section {
+    padding: 30px;
+}
+
+.feather-icon .icon-section h4 {
+    color: #3b3f5c;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.feather-icon .icon-content-container {
+    padding: 0 16px;
+    width: 86%;
+    margin: 0 auto;
+    border: 1px solid #bfc9d4;
+    border-radius: 6px;
+}
+
+.feather-icon .icon-section p.fs-text {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.feather-icon .icon-container {
+    cursor: pointer;
+}
+
+.feather-icon .icon-container svg {
+    color: #3b3f5c;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 20px;
+    height: 40px;
+    fill: rgba(0, 23, 55, 0.08);
+}
+
+.feather-icon .icon-container:hover svg {
+    color: #fd9f1c;
+    fill: rgba(27, 85, 226, 0.23921568627450981);
+}
+
+.feather-icon .icon-container span {
+    display: none;
+}
+
+.feather-icon .icon-container:hover span {
+    color: #fd9f1c;
+}
+
+.feather-icon .icon-link {
+    color: #fd9f1c;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/*FAB*/
+
+.fontawesome .icon-section {
+    padding: 30px;
+}
+
+.fontawesome .icon-section h4 {
+    color: #3b3f5c;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.fontawesome .icon-content-container {
+    padding: 0 16px;
+    width: 86%;
+    margin: 0 auto;
+    border: 1px solid #bfc9d4;
+    border-radius: 6px;
+}
+
+.fontawesome .icon-section p.fs-text {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.fontawesome .icon-container {
+    cursor: pointer;
+}
+
+.fontawesome .icon-container i {
+    font-size: 20px;
+    color: #3b3f5c;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.fontawesome .icon-container:hover i {
+    color: #fd9f1c;
+}
+
+.fontawesome .icon-container span {
+    color: #888ea8;
+    display: none;
+}
+
+.fontawesome .icon-container:hover span {
+    color: #fd9f1c;
+}
+
+.fontawesome .icon-link {
+    color: #fd9f1c;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/**
+*  Buttons
+*
+**/
+
+.btn-orange {
+    color: #fff !important;
+    background-color: #ff9400 !important;
+    border-color: #fd9f1c;
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+    color: #fff !important;
+    background-color: #fd9f1c;
+    box-shadow: none;
+    border-color: #fd9f1c;
+}
+
+.btn-orange:active,
+.btn-orange.active {
+    background-color: #fd9f1c;
+    border-top: 1px solid #fd9f1c;
+}
+
+.btn-orange.disabled,
+.btn-orange.btn[disabled],
+.btn-orange:disabled {
+    background-color: #fd9f1c;
+    border-color: #fd9f1c;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* CSS for prices container on forms  */
+
+.prices-cont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid;
+    z-index: 2;
+    display: none;
+}
+
+.custom-disable {
+    background: #fff !important;
+    color: #000000 !important;
+}
+
+.outline-border {
+    border: 2px solid #ff9400;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    padding: 5px;
+    left: 0;
+}
+
+
+/**
+* Select 2
+*
+**/
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 3px 10px;
+    height: 30px;
+}
+
+.fa-2x {
+    font-size: 1.5em !important;
+}
+
+.fa-2x {
+    font-size: 1.5em !important;
+}
+
+.custom-link {
+    cursor: pointer;
+    color: blue;
+}
+
+.error-field-msg {
+    color: red;
+}
