@@ -362,7 +362,8 @@ class ProductController extends Controller
             // $imageName = time() . '.' . $request->image->extension();
             $name = $request->file('device_image')->getClientOriginalName();
             // $path = Storage::put('images',$request->file('device_image')->get());
-            $path = $request->file('device_image')->store('images/products');
+            $path = Storage::put('images/prducts', $request->file('device_image'));
+            // $path = $request->file('device_image')->store('images/prducts');
             $save_prod['image'] = $path;
         } else {
             // dd($request->input());
@@ -481,13 +482,16 @@ class ProductController extends Controller
 
         if ($request->hasFile('device_image')) {
             // $imageName = time() . '.' . $request->image->extension();
-            $name = $request->file('device_image')->getClientOriginalName();
+            // $name = $request->file('device_image')->getClientOriginalName();
             // $path = Storage::put('images',$request->file('device_image')->get());
-            $path = $request->file('device_image')->store('images/products');
+            $path =Storage::put('images/prducts', $request->file('device_image'));
+            // $path = $request->file('device_image')->store('images/prducts');
             $update_prod['image'] = $path;
         }elseif($request->image_name){
             $update_prod['image'] = $request->image_name;
         }
+        // dd("Hey");
+        // dd($update_prod,$request->file('device_image'));
 
        /* if ($request->hasFile('device_image')) {
                 // $imageName = time() . '.' . $request->image->extension();

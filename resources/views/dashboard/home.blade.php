@@ -4,7 +4,7 @@ Dashboard
 @endsection
 @section('css')
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-<link href="{{asset('dashboard_assets/plugins/apex/apexcharts.css')}}" rel="stylesheet" type="text/css">
+{{-- <link href="{{asset('dashboard_assets/plugins/apex/apexcharts.css')}}" rel="stylesheet" type="text/css"> --}}
 <link href="{{asset('dashboard_assets/css/dashboard/dash_2.css')}}" rel="stylesheet" type="text/css" />
 <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 @endsection
@@ -135,7 +135,7 @@ Dashboard
 @endsection
 @section('scripts')
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-<script src="{{asset('dashboard_assets/plugins/apex/apexcharts.min.js')}}"></script>
+{{-- <script src="{{asset('dashboard_assets/plugins/apex/apexcharts.min.js')}}"></script> --}}
 <script src="{{asset('dashboard_assets/js/dashboard/dash_2.js')}}"></script>
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 @endsection

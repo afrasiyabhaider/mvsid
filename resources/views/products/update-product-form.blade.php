@@ -76,7 +76,7 @@
                         @endif
                     </div>
                 </div>
-                <form method="post" action="{{ action('ProductController@update',$product->id)}} " enctype="multipart/form-data">
+                <form method="post" action="{{ action('ProductController@update',$product->id)}}" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
                         <div class="col-sm-6">
@@ -861,7 +861,7 @@
                                     <label>Upload (Single File) <a href="javascript:void(0)"
                                             class="custom-file-container__image-clear" title="Clear Image">x</a></label>
                                     <label class="custom-file-container__custom-file">
-                                    <input type="file" accept="image/*" name="device_image" capture="camera" class="custom-file-container__custom-file__custom-file-input" />
+                                    <input type="file" accept="image/*" name="device_image" class="custom-file-container__custom-file__custom-file-input" />
                                         <!-- <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="image/*"> -->
                                         <span class="custom-file-container__custom-file__custom-file-control"></span>
                                     </label>

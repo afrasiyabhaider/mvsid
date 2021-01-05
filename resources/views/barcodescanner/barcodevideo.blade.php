@@ -46,10 +46,10 @@
                             <label class="ml-5" >
                                 <span>Barcode-Type</span>
                                 <select class="form-control" name="decoder_readers">
+                                    <option value="ean" selected="selected">EAN</option>
                                     <option value="code_128">Code 128</option>
                                     <option value="code_39">Code 39</option>
                                     <option value="code_39_vin">Code 39 VIN</option>
-                                    <option value="ean" selected="selected">EAN</option>
                                     <option value="ean_extended">EAN-extended</option>
                                     <option value="ean_8">EAN-8</option>
                                     <option value="upc">UPC</option>
@@ -119,13 +119,12 @@
 
 @endsection
 @section('scripts')
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+{{-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script> --}}
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/7.3.0/adapter.min.js">
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+{{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script> --}}
 <script src="https://webrtc.github.io/adapter/adapter-latest.js" type="text/javascript"></script>
 <script src="{{asset('barcode/quagga.js')}}" type="text/javascript"></script>
 <script src="{{asset('barcode/live_w_locator.js')}}" type="text/javascript"></script>
 {{-- <script src="{{asset('barcode/file_input.js')}}" type="text/javascript"></script> --}}
-
 @endsection

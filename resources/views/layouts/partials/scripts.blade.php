@@ -7,6 +7,8 @@
 <script src="{{asset('dashboard_assets/js/perfect-scrollbar.min.js')}}"></script>
 <script src="{{asset('dashboard_assets/js/perfect-scrollbar.min.js')}}"></script>
 <script src="{{asset('dashboard_assets/plugins/font-icons/feather/feather.min.js')}}"></script>
+{{-- <script src="https://unpkg.com/feather-icons"></script> --}}
+{{-- <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> --}}
 <script src="{{asset('dashboard_assets/plugins/font-icons/fontawesome/js/all.min.js')}}"></script>
 
 
